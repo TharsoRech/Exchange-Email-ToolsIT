@@ -1,0 +1,72 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ExchangeEmailToolsIT
+</name>
+</assembly>
+<members>
+<member name="P:Exchange_Email_ToolsIT.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Exchange_Email_ToolsIT.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Exchange_Email_ToolsIT.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:Exchange_Email_ToolsIT.RTFtoHTML.rtf">
+	<summary>
+ Returns/Sets The RTF formatted text to parse
+ </summary>
+</member><member name="P:Exchange_Email_ToolsIT.RTFtoHTML.html">
+	<summary>
+ Returns the HTML code for the provided RTF
+ </summary>
+</member><member name="M:Exchange_Email_ToolsIT.RTFtoHTML.HtmlColorFromColor(System.Drawing.Color@)">
+	<summary>
+ Returns an HTML Formated Color string for the style from a system.drawing.color
+ </summary>
+	<param name="clr">The color you wish to convert</param>
+</member><member name="M:Exchange_Email_ToolsIT.RTFtoHTML.HtmlFontStyleFromFont(System.Drawing.Font@)">
+	<summary>
+ Provides the font style per given font
+ </summary>
+	<param name="fnt">The font you wish to convert</param>
+</member><member name="M:Exchange_Email_ToolsIT.RTFtoHTML.GetHtml">
+	<summary>
+ Parses the given rich text and returns the html.
+ </summary>
+</member><member name="T:Exchange_Email_ToolsIT.RTFtoHTML">
+	<summary>
+ An object that converts RTF to HTML
+ </summary>
+	<remarks>
+   Completed: 11/02/2006
+   Author: George H. Slaterpryce III
+   Modifications: none
+   *************************************************************************
+   *************************************************************************
+   License: This code is free to use in private or commercial 
+   applications, re-distribution of this code is allowed in whole 
+   or in part so long as this header remains intact. All modifications 
+   and further development to this code should be indicated by adding the 
+   name of the author and the modifications/improvements under the 
+   "Modifications:" section.
+   Modification Listings should be in the format of.
+   (#) Description of modification (Name, Date)
+   *************************************************************************
+   *************************************************************************
+ </remarks>
+</member><member name="M:Exchange_Email_ToolsIT.DiffuseDlgDemo.Notification.InitializeComponent">
+	<summary>
+ Required method for Designer support - do not modify
+ the contents of this method with the code editor.
+ </summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,260 @@
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Exchange Email ToolsIT.exe.manifest
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Exchange Email ToolsIT.application
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Exchange Email ToolsIT.exe
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Exchange Email ToolsIT.pdb
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Exchange Email ToolsIT.xml
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\AutocompleteMenu.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\AutocompleteMenu.pdb
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Form1.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Form2.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Form3.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Form4.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Form5.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Form6.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.LoginForm1.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Resources.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange Email ToolsIT.vbproj.GenerateResource.Cache
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange Email ToolsIT.TrustInfo.xml
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange Email ToolsIT.exe.manifest
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange Email ToolsIT.application
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange Email ToolsIT.exe
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange Email ToolsIT.xml
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange Email ToolsIT.pdb
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Guifreaks.Common.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Guifreaks.NavigationBar.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Guifreaks.NavigationBar.XmlSerializers.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\System.Windows.Forms.Ribbon35.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\System.Windows.Forms.Ribbon35.pdb
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Exchange Email ToolsIT.exe.config
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.NaviMain.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.SplashScreen1.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Microsoft.Exchange.WebServices.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Microsoft.Exchange.WebServices.xml
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange Email ToolsIT.vbprojResolveAssemblyReference.cache
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Exchange Email ToolsIT.exe.CodeAnalysisLog.xml
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Exchange Email ToolsIT.exe.lastcodeanalysissucceeded
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Microsoft.Exchange.WebServices.Auth.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Microsoft.Exchange.WebServices.Auth.xml
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\progressForm.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\progressForm.xml
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.frmProcess.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\NetSpell.SpellChecker.DLL
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\PSTParse.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Form7.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.SpinningProgress.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\MRG.Controls.UI.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\ar-AE.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\cz-CZ.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\de-DE.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\el-GR.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\en-AU.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\en-CA.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\en-GB.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\en-UK.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\en-US.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\es-ES.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\es-MX.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\fr-FR.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\hr-HR.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\it-IT.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\nl-NL.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\nn-NO - Copy.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\nn-NO.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\pl-PL.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\pt-BR.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\pt-PT.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\ro-RO.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\sl-SI.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\sv-SE.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\th-TH.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Exchange Email ToolsIT.exe.config
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Exchange Email ToolsIT.exe.manifest
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Exchange Email ToolsIT.application
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Exchange Email ToolsIT.exe
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Exchange Email ToolsIT.pdb
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Exchange Email ToolsIT.xml
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\pt-BR\Exchange Email ToolsIT.resources.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Exchange Email ToolsIT.exe.CodeAnalysisLog.xml
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Exchange Email ToolsIT.exe.lastcodeanalysissucceeded
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\ARBOControls.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\AutocompleteMenu.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\DiffuseDlgDemo.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\EmailReader.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Guifreaks.NavigationBar.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\HtmlRenderer.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\HtmlRenderer.WinForms.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Ionic.Zip.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\MahApps.Metro.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\MetroFramework.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Microsoft.Exchange.WebServices.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\NetSpell.SpellChecker.DLL
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\PSTParse.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\System.Windows.Forms.Ribbon35.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\W3Common.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Guifreaks.Common.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\MiscParseUtilities.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\AutocompleteMenu.pdb
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\EmailReader.pdb
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\EmailReader.xml
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Microsoft.Exchange.WebServices.xml
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\OfficeList.pdb
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\OfficeList.xml
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\System.Windows.Forms.Ribbon35.pdb
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Guifreaks.NavigationBar.XmlSerializers.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.ChooseAccount.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.DownloadEmails.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Editor.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.EmailViewer.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.EnviarReceber.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Form1.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Form2.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Form3.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Form4.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Form5.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Form6.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Form7.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.LinkDialog.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.ListControl.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.ListControlItem.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.LoginForm1.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Resources.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.NaviMain.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.DiffuseDlgDemo.Notification.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.NovaAssinatura.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.ProgresWindows.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.RatingBar.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.SelectEmails.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.SpinningProgress.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.SplashScreen1.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Task.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.TaskControl.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Form1.pt-BR.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange Email ToolsIT.vbproj.GenerateResource.Cache
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\pt-BR\Exchange Email ToolsIT.resources.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange Email ToolsIT.TrustInfo.xml
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange Email ToolsIT.exe.manifest
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange Email ToolsIT.application
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange Email ToolsIT.exe
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange Email ToolsIT.xml
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange Email ToolsIT.pdb
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\OfficeList.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.AccountEdit.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.AddAccount.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2013\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange Email ToolsIT.vbprojResolveAssemblyReference.cache
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\ar-AE.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\cz-CZ.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\de-DE.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\el-GR.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\en-AU.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\en-CA.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\en-GB.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\en-UK.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\en-US.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\es-ES.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\es-MX.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\fr-FR.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\hr-HR.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\it-IT.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\nl-NL.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\nn-NO - Copy.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\nn-NO.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\pl-PL.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\pt-BR.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\pt-PT.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\ro-RO.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\sl-SI.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\sv-SE.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\dic\th-TH.dic
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Exchange Email ToolsIT.exe.config
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Exchange Email ToolsIT.exe.manifest
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Exchange Email ToolsIT.application
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Exchange Email ToolsIT.exe
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Exchange Email ToolsIT.pdb
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Exchange Email ToolsIT.xml
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\pt-BR\Exchange Email ToolsIT.resources.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Exchange Email ToolsIT.exe.CodeAnalysisLog.xml
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Exchange Email ToolsIT.exe.lastcodeanalysissucceeded
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\ARBOControls.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\AutocompleteMenu.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\DiffuseDlgDemo.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Guifreaks.NavigationBar.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\HtmlRenderer.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\HtmlRenderer.WinForms.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Ionic.Zip.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\MetroFramework.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Microsoft.Exchange.WebServices.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\NetSpell.SpellChecker.DLL
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\PSTParse.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\System.Windows.Forms.Ribbon35.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\W3Common.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Guifreaks.Common.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\MiscParseUtilities.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\AutocompleteMenu.pdb
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\EmailReader.pdb
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\EmailReader.xml
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Microsoft.Exchange.WebServices.xml
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\OfficeList.pdb
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\OfficeList.xml
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\System.Windows.Forms.Ribbon35.pdb
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Debug\Guifreaks.NavigationBar.XmlSerializers.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange Email ToolsIT.vbprojResolveAssemblyReference.cache
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.AccountEdit.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.AddAccount.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.ChooseAccount.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.DownloadEmails.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Editor.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.EmailViewer.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.EnviarReceber.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Form1.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Form2.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Form3.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Form4.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Form5.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Form6.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Form7.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.LinkDialog.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.ListControl.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.ListControlItem.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.LoginForm1.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Resources.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.NaviMain.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.DiffuseDlgDemo.Notification.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.NovaAssinatura.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.ProgresWindows.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.RatingBar.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.SelectEmails.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.SpinningProgress.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.SplashScreen1.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Task.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.TaskControl.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange_Email_ToolsIT.Form1.pt-BR.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange Email ToolsIT.vbproj.GenerateResource.Cache
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\pt-BR\Exchange Email ToolsIT.resources.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange Email ToolsIT.TrustInfo.xml
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange Email ToolsIT.exe.manifest
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange Email ToolsIT.application
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange Email ToolsIT.exe
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange Email ToolsIT.xml
+C:\Users\tharso.curia\Documents\Visual Studio 2015\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Debug\Exchange Email ToolsIT.pdb

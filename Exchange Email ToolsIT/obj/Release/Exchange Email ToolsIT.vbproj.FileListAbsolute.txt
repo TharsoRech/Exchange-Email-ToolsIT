@@ -1,0 +1,33 @@
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Release\Exchange Email ToolsIT.exe.config
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Release\Exchange Email ToolsIT.exe.manifest
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Release\Exchange Email ToolsIT.application
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Release\Exchange Email ToolsIT.exe
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Release\Exchange Email ToolsIT.pdb
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Release\Exchange Email ToolsIT.xml
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Release\AutocompleteMenu.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Release\Guifreaks.Common.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Release\Guifreaks.NavigationBar.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Release\Guifreaks.NavigationBar.XmlSerializers.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Release\Independentsoft.Exchange.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Release\System.Windows.Forms.Ribbon35.dll
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Release\System.Windows.Forms.Ribbon35.pdb
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Release\Independentsoft.Exchange.xml
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\bin\Release\AutocompleteMenu.pdb
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Release\ResolveAssemblyReference.cache
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Release\Exchange_Email_ToolsIT.Form1.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Release\Exchange_Email_ToolsIT.Form2.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Release\Exchange_Email_ToolsIT.Form3.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Release\Exchange_Email_ToolsIT.Form4.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Release\Exchange_Email_ToolsIT.Form5.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Release\Exchange_Email_ToolsIT.Form6.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Release\Exchange_Email_ToolsIT.LoginForm1.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Release\Exchange_Email_ToolsIT.Resources.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Release\Exchange Email ToolsIT.vbproj.GenerateResource.Cache
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Release\Exchange Email ToolsIT.TrustInfo.xml
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Release\Exchange Email ToolsIT.exe.manifest
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Release\Exchange Email ToolsIT.application
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Release\Exchange Email ToolsIT.exe
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Release\Exchange Email ToolsIT.xml
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Release\Exchange Email ToolsIT.pdb
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Release\Exchange_Email_ToolsIT.NaviMain.resources
+C:\Users\tharso.curia\Documents\Visual Studio 2008\Projects\Exchange Email ToolsIT\Exchange Email ToolsIT\obj\Release\Exchange_Email_ToolsIT.SplashScreen1.resources

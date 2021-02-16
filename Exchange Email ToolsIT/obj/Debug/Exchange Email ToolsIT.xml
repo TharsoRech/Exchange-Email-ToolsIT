@@ -1,0 +1,2060 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Exchange Email ToolsIT
+</name>
+</assembly>
+<members>
+<member name="T:Exchange_Email_ToolsIT.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Exchange_Email_ToolsIT.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Exchange_Email_ToolsIT.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.webBrowser1_DocumentCompleted(System.Object,System.Windows.Forms.WebBrowserDocumentCompletedEventArgs)">
+ <summary>
+ Setup navigation and focus event handlers.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.webBrowser1_GotFocus(System.Object,System.EventArgs)">
+ <summary>
+ When this control receives focus, it transfers focus to the 
+ document body.
+ </summary>
+ <param name="sender">the sender</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.webBrowser1_Navigated(System.Object,System.Windows.Forms.WebBrowserNavigatedEventArgs)">
+ <summary>
+ This is called when the initial html/body framework is set up, 
+ or when document.DocumentText is set.  At this point, the 
+ document is editable.
+ </summary>
+ <param name="sender">sender</param>
+ <param name="e">navigation args</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.SetupTimer">
+ <summary>
+ Setup timer with 200ms interval
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.SetupBrowser">
+ <summary>
+ Add document body, turn on design mode on the whole document, 
+ and overred the context menu
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.SuperFocus">
+ <summary>
+ Set the focus on the document body.  
+ </summary>
+</member>
+<member name="P:Exchange_Email_ToolsIT.Editor.BackColor">
+ <summary>
+ Get/Set the background color of the editor.
+ Note that if this is called before the document is rendered and 
+ complete, the navigated event handler will set the body's 
+ background color based on the state of BackColor.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.SetBackgroundColor(System.Drawing.Color)">
+ <summary>
+ Set the background color of the body by setting it's CSS style
+ </summary>
+ <param name="value">the color to use for the background</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.Clear">
+ <summary>
+ Clear the contents of the document, leaving the body intact.
+ </summary>
+</member>
+<member name="P:Exchange_Email_ToolsIT.Editor.Document">
+ <summary>
+ Get the web browser component's document
+ </summary>
+</member>
+<member name="P:Exchange_Email_ToolsIT.Editor.DocumentText">
+ <summary>
+ Document text should be used to load/save the entire document, 
+ including html and body start/end tags.
+ </summary>
+</member>
+<member name="P:Exchange_Email_ToolsIT.Editor.DocumentTitle">
+ <summary>
+ Get the html document title from document.
+ </summary>
+</member>
+<member name="P:Exchange_Email_ToolsIT.Editor.BodyHtml">
+ <summary>
+ Get/Set the contents of the document Body, in html.
+ </summary>
+</member>
+<member name="P:Exchange_Email_ToolsIT.Editor.BodyText">
+ <summary>
+ Get/Set the documents body as text.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.CanUndo">
+ <summary>
+ Determine the status of the Undo command in the document editor.
+ </summary>
+ <returns>whether or not an undo operation is currently valid</returns>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.CanRedo">
+ <summary>
+ Determine the status of the Redo command in the document editor.
+ </summary>
+ <returns>whether or not a redo operation is currently valid</returns>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.CanCut">
+ <summary>
+ Determine the status of the Cut command in the document editor.
+ </summary>
+ <returns>whether or not a cut operation is currently valid</returns>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.CanCopy">
+ <summary>
+ Determine the status of the Copy command in the document editor.
+ </summary>
+ <returns>whether or not a copy operation is currently valid</returns>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.CanPaste">
+ <summary>
+ Determine the status of the Paste command in the document editor.
+ </summary>
+ <returns>whether or not a copy operation is currently valid</returns>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.CanDelete">
+ <summary>
+ Determine the status of the Delete command in the document editor.
+ </summary>
+ <returns>whether or not a copy operation is currently valid</returns>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.IsJustifyLeft">
+ <summary>
+ Determine whether the current block is left justified.
+ </summary>
+ <returns>true if left justified, otherwise false</returns>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.IsJustifyRight">
+ <summary>
+ Determine whether the current block is right justified.
+ </summary>
+ <returns>true if right justified, otherwise false</returns>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.IsJustifyCenter">
+ <summary>
+ Determine whether the current block is center justified.
+ </summary>
+ <returns>true if center justified, false otherwise</returns>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.IsJustifyFull">
+ <summary>
+ Determine whether the current block is full justified.
+ </summary>
+ <returns>true if full justified, false otherwise</returns>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.IsBold">
+ <summary>
+ Determine whether the current selection is in Bold mode.
+ </summary>
+ <returns>whether or not the current selection is Bold</returns>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.IsItalic">
+ <summary>
+ Determine whether the current selection is in Italic mode.
+ </summary>
+ <returns>whether or not the current selection is Italicized</returns>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.IsUnderline">
+ <summary>
+ Determine whether the current selection is in Underline mode.
+ </summary>
+ <returns>whether or not the current selection is Underlined</returns>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.IsOrderedList">
+ <summary>
+ Determine whether the current paragraph is an ordered list.
+ </summary>
+ <returns>true if current paragraph is ordered, false otherwise</returns>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.IsUnorderedList">
+ <summary>
+ Determine whether the current paragraph is an unordered list.
+ </summary>
+ <returns>true if current paragraph is ordered, false otherwise</returns>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.Document_ContextMenuShowing(System.Object,System.Windows.Forms.HtmlElementEventArgs)">
+ <summary>
+ Called when the editor context menu should be displayed.
+ The return value of the event is set to false to disable the 
+ default context menu.  A custom context menu (contextMenuStrip1) is 
+ shown instead.
+ </summary>
+ <param name="sender">the sender</param>
+ <param name="e">HtmlElementEventArgs</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.SetupFontSizeComboBox">
+ <summary>
+ Populate the font size combobox.
+ Add text changed and key press handlers to handle input and update 
+ the editor selection font size.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.fontSizeComboBox_KeyPress(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+ <summary>
+ Called when a key is pressed on the font size combo box.
+ The font size in the boxy box is set to the key press value.
+ </summary>
+ <param name="sender">the sender</param>
+ <param name="e">KeyPressEventArgs</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.fontSizeComboBox_TextChanged(System.Object,System.EventArgs)">
+ <summary>
+ Set editor's current selection to the value of the font size combo box.
+ Ignore if the timer is currently updating the font size to synchronize 
+ the font size combo box with the editor's current selection.
+ </summary>
+ <param name="sender">the sender</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.SetupFontComboBox">
+ <summary>
+ Populate the font combo box and autocomplete handlers.
+ Add a text changed handler to the font combo box to handle new font selections.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.fontComboBox_TextChanged(System.Object,System.EventArgs)">
+ <summary>
+ Called when the font combo box has changed.
+ Ignores the event when the timer is updating the font combo Box 
+ to synchronize the editor selection with the font combo box.
+ </summary>
+ <param name="sender">the sender</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.timer_Tick(System.Object,System.EventArgs)">
+ <summary>
+ Called when the timer fires to synchronize the format buttons 
+ with the text editor current selection.
+ SetupKeyListener if necessary.
+ Set bold, italic, underline and link buttons as based on editor state.
+ Synchronize the font combo box and the font size combo box.
+ Finally, fire the Tick event to allow external components to synchronize 
+ their state with the editor.
+ </summary>
+ <param name="sender">the sender</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.UpdateFontSizeComboBox">
+ <summary>
+ Update the font size combo box.
+ Sets a flag to indicate that the combo box is updating, and should 
+ not update the editor's selection.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.UpdateFontComboBox">
+ <summary>
+ Update the font combo box.
+ Sets a flag to indicate that the combo box is updating, and should 
+ not update the editor's selection.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.SetupKeyListener">
+ <summary>
+ Set up a key listener on the body once.
+ The key listener checks for specific key strokes and takes 
+ special action in certain cases.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.Body_KeyDown(System.Object,System.Windows.Forms.HtmlElementEventArgs)">
+ <summary>
+ If the user hits the enter key, and event will fire (EnterKeyEvent), 
+ and the consumers of this event can cancel the projecessing of the 
+ enter key by cancelling the event.
+ This is useful if your application would like to take some action 
+ when the enter key is pressed, such as a submission to a web service.
+ </summary>
+ <param name="sender">the sender</param>
+ <param name="e">HtmlElementEventArgs</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.EmbedBr">
+ <summary>
+ Embed a break at the current selection.
+ This is a placeholder for future functionality.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.SuperPaste">
+ <summary>
+ Paste the clipboard text into the current selection.
+ This is a placeholder for future functionality.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.Print">
+ <summary>
+ Print the current document
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.InsertParagraph">
+ <summary>
+ Insert a paragraph break
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.InsertBreak">
+ <summary>
+ Insert a horizontal rule
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.SelectAll">
+ <summary>
+ Select all text in the document.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.Undo">
+ <summary>
+ Undo the last operation
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.Redo">
+ <summary>
+ Redo based on the last Undo
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.Cut">
+ <summary>
+ Cut the current selection and place it in the clipboard.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.Paste">
+ <summary>
+ Paste the contents of the clipboard into the current selection.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.Copy">
+ <summary>
+ Copy the current selection into the clipboard.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.OrderedList">
+ <summary>
+ Toggle the ordered list property for the current paragraph.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.UnorderedList">
+ <summary>
+ Toggle the unordered list property for the current paragraph.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.JustifyLeft">
+ <summary>
+ Toggle the left justify property for the currnet block.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.JustifyRight">
+ <summary>
+ Toggle the right justify property for the current block.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.JustifyCenter">
+ <summary>
+ Toggle the center justify property for the current block.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.JustifyFull">
+ <summary>
+ Toggle the full justify property for the current block.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.Bold">
+ <summary>
+ Toggle bold formatting on the current selection.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.Italic">
+ <summary>
+ Toggle italic formatting on the current selection.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.Underline">
+ <summary>
+ Toggle underline formatting on the current selection.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.Delete">
+ <summary>
+ Delete the current selection.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.InsertImage">
+ <summary>
+ Insert an imange.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.Indent">
+ <summary>
+ Indent the current paragraph.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.Outdent">
+ <summary>
+ Outdent the current paragraph.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.InsertLink(System.String)">
+ <summary>
+ Insert a link at the current selection.
+ </summary>
+ <param name="url">The link url</param>
+</member>
+<member name="P:Exchange_Email_ToolsIT.Editor.ReadyState">
+ <summary>
+ Get the ready state of the internal browser component.
+ </summary>
+</member>
+<member name="P:Exchange_Email_ToolsIT.Editor.SelectionType">
+ <summary>
+ Get the current selection type.
+ </summary>
+</member>
+<member name="P:Exchange_Email_ToolsIT.Editor.FontSize">
+ <summary>
+ Get/Set the current font size.
+ </summary>
+</member>
+<member name="P:Exchange_Email_ToolsIT.Editor.FontName">
+ <summary>
+ Get/Set the current font name.
+ </summary>
+</member>
+<member name="P:Exchange_Email_ToolsIT.Editor.EditorForeColor">
+ <summary>
+ Get/Set the editor's foreground (text) color for the current selection.
+ </summary>
+</member>
+<member name="P:Exchange_Email_ToolsIT.Editor.EditorBackColor">
+ <summary>
+ Get/Set the editor's background color for the current selection.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.SelectForeColor">
+ <summary>
+ Initiate the foreground (text) color dialog for the current selection.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.SelectBackColor">
+ <summary>
+ Initiate the background color dialog for the current selection.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.ConvertToColor(System.String)">
+ <summary>
+ Convert the custom integer (B G R) format to a color object.
+ </summary>
+ <param name="clrs">the custorm color as a string</param>
+ <returns>the color</returns>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.cutToolStripButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Called when the cut tool strip button on the editor context menu 
+ is clicked.
+ </summary>
+ <param name="sender">the sender</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.pasteToolStripButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Called when the paste tool strip button on the editor context menu 
+ is clicked.
+ </summary>
+ <param name="sender">the sender</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.copyToolStripButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Called when the copy tool strip button on the editor context menu 
+ is clicked.
+ </summary>
+ <param name="sender">the sender</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.boldButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Called when the bold button on the tool strip is pressed.
+ </summary>
+ <param name="sender">the sender</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.italicButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Called when the italic button on the tool strip is pressed.
+ </summary>
+ <param name="sender">the sender</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.underlineButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Called when the underline button on the tool strip is pressed.
+ </summary>
+ <param name="sender">the sender</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.colorButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Called when the foreground color button on the tool strip is pressed.
+ </summary>
+ <param name="sender">the sender</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.backColorButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Called when the background color button on the tool strip is pressed.
+ </summary>
+ <param name="sender">the sender</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.ShowColorDialog(System.Boolean)">
+ <summary>
+ Show the interactive Color dialog.
+ </summary>
+ <param name="color">the input and output color</param>
+ <returns>true if dialog accepted, false if dialog cancelled</returns>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.linkButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Called when the link button on the toolstrip is pressed.
+ </summary>
+ <param name="sender">the sender</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.CanInsertLink">
+ <summary>
+ Determine if text is selected and only one or no link is selected.
+ </summary>
+ <returns>Boolean</returns>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.LinksInSelection">
+ <summary>
+ Determine wheter the currently selected text contains two or more links.
+ </summary>
+ <returns>true if two links or more links are currently selected, false otherwise</returns>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.SelectLink">
+ <summary>
+ Show a custom insert link dialog, and create the link.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.imageButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Called when the image button on the toolstrip is clicked.
+ </summary>
+ <param name="sender">the sender</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.outdentButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Called when the outdent button on the toolstrip is clicked.
+ </summary>
+ <param name="sender">the sender</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.indentButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Called when the indent button on the toolstrip is clicked.
+ </summary>
+ <param name="sender">the sender</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.cutToolStripMenuItem1_Click(System.Object,System.EventArgs)">
+ <summary>
+ Called when the cut button is clicked on the editor context menu.
+ </summary>
+ <param name="sender">the sender</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.copyToolStripMenuItem2_Click(System.Object,System.EventArgs)">
+ <summary>
+ Called when the copy button is clicked on the editor context menu.
+ </summary>
+ <param name="sender">the sender</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.pasteToolStripMenuItem3_Click(System.Object,System.EventArgs)">
+ <summary>
+ Called when the paste button is clicked on the editor context menu.
+ </summary>
+ <param name="sender">the sender</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.deleteToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Called when the delete button is clicked on the editor context menu.
+ </summary>
+ <param name="sender">the sender</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.Search(System.String,System.Boolean,System.Boolean,System.Boolean)">
+ <summary>
+ Search the document from the current selection, and reset the 
+ the selection to the text found, if successful.
+ </summary>
+ <param name="text">the text for which to search</param>
+ <param name="forward">true for forward search, false for backward</param>
+ <param name="matchWholeWord">true to match whole word, false otherwise</param>
+ <param name="matchCase">true to match case, false otherwise</param>
+ <returns></returns>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.orderedListButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Event handler for the ordered list toolbar button
+ </summary>
+ <param name="sender">the sender</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.unorderedListButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Event handler for the unordered list toolbar button
+ </summary>
+ <param name="sender">the sender</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.justifyLeftButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Event handler for the left justify toolbar button.
+ </summary>
+ <param name="sender">the sender</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.justifyCenterButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Event handler for the center justify toolbar button.
+ </summary>
+ <param name="sender">the sender</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.justifyRightButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Event handler for the right justify toolbar button.
+ </summary>
+ <param name="sender">the sender</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.Editor.justifyFullButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Event handler for the full justify toolbar button.
+ </summary>
+ <param name="sender">the sender</param>
+ <param name="e">EventArgs</param>
+</member>
+<member name="T:Exchange_Email_ToolsIT.FontSize">
+ <summary>
+ Enumeration of possible font sizes for the Editor component
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.DiffuseDlgDemo.Notification.InitializeComponent">
+ <summary>
+ Required method for Designer support - do not modify
+ the contents of this method with the code editor.
+ </summary>
+</member>
+<member name="T:Exchange_Email_ToolsIT.RTFtoHTML">
+ <summary>
+ An object that converts RTF to HTML
+ </summary>
+ <remarks>
+   Completed: 11/02/2006
+   Author: George H. Slaterpryce III
+   Modifications: none
+   *************************************************************************
+   *************************************************************************
+   License: This code is free to use in private or commercial 
+   applications, re-distribution of this code is allowed in whole 
+   or in part so long as this header remains intact. All modifications 
+   and further development to this code should be indicated by adding the 
+   name of the author and the modifications/improvements under the 
+   "Modifications:" section.
+   Modification Listings should be in the format of.
+   (#) Description of modification (Name, Date)
+   *************************************************************************
+   *************************************************************************
+ </remarks>
+</member>
+<member name="P:Exchange_Email_ToolsIT.RTFtoHTML.rtf">
+ <summary>
+ Returns/Sets The RTF formatted text to parse
+ </summary>
+</member>
+<member name="P:Exchange_Email_ToolsIT.RTFtoHTML.html">
+ <summary>
+ Returns the HTML code for the provided RTF
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.RTFtoHTML.HtmlColorFromColor(System.Drawing.Color@)">
+ <summary>
+ Returns an HTML Formated Color string for the style from a system.drawing.color
+ </summary>
+ <param name="clr">The color you wish to convert</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.RTFtoHTML.HtmlFontStyleFromFont(System.Drawing.Font@)">
+ <summary>
+ Provides the font style per given font
+ </summary>
+ <param name="fnt">The font you wish to convert</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.RTFtoHTML.GetHtml">
+ <summary>
+ Parses the given rich text and returns the html.
+ </summary>
+</member>
+<member name="T:Exchange_Email_ToolsIT.AssetBrowserControl.SerializableTreeView">
+ <summary>
+ Summary description for SerializableTreeView.
+ </summary> 
+ 
+</member>
+<member name="M:Exchange_Email_ToolsIT.AssetBrowserControl.SerializableTreeView.Serialize(System.IO.Stream,System.Runtime.Serialization.IFormatter)">
+ <summary> 
+ Serialize all the nodes of this tree to the stream provided, using the formatter provided. 
+ </summary> 
+ <param name="stream">The stream to serialize to.</param> 
+ <param name="formatter">The formatter used to serialize.</param> 
+</member>
+<member name="M:Exchange_Email_ToolsIT.AssetBrowserControl.SerializableTreeView.Deserialize(System.IO.Stream,System.Runtime.Serialization.IFormatter)">
+ <summary> 
+ Recreate this tree from a serialized version. 
+ </summary> 
+ <param name="stream">the stream that contains the serialized tree.</param> 
+ <param name="formatter">the formatter used to desrialize the stream.</param> 
+</member>
+<member name="T:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI">
+ <summary>
+ SPI_ System-wide parameter - Used in SystemParametersInfo function 
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETBEEP">
+ <summary>
+ Determines whether the warning beeper is on. 
+ The pvParam parameter must point to a BOOL variable that receives TRUE if the beeper is on, or FALSE if it is off.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETBEEP">
+ <summary>
+ Turns the warning beeper on or off. The uiParam parameter specifies TRUE for on, or FALSE for off.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETMOUSE">
+ <summary>
+ Retrieves the two mouse threshold values and the mouse speed.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETMOUSE">
+ <summary>
+ Sets the two mouse threshold values and the mouse speed.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETBORDER">
+ <summary>
+ Retrieves the border multiplier factor that determines the width of a window's sizing border. 
+ The pvParam parameter must point to an integer variable that receives this value.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETBORDER">
+ <summary>
+ Sets the border multiplier factor that determines the width of a window's sizing border. 
+ The uiParam parameter specifies the new value.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETKEYBOARDSPEED">
+ <summary>
+ Retrieves the keyboard repeat-speed setting, which is a value in the range from 0 (approximately 2.5 repetitions per second) 
+ through 31 (approximately 30 repetitions per second). The actual repeat rates are hardware-dependent and may vary from 
+ a linear scale by as much as 20%. The pvParam parameter must point to a DWORD variable that receives the setting
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETKEYBOARDSPEED">
+ <summary>
+ Sets the keyboard repeat-speed setting. The uiParam parameter must specify a value in the range from 0 
+ (approximately 2.5 repetitions per second) through 31 (approximately 30 repetitions per second). 
+ The actual repeat rates are hardware-dependent and may vary from a linear scale by as much as 20%. 
+ If uiParam is greater than 31, the parameter is set to 31.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_LANGDRIVER">
+ <summary>
+ Not implemented.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_ICONHORIZONTALSPACING">
+ <summary>
+ Sets or retrieves the width, in pixels, of an icon cell. The system uses this rectangle to arrange icons in large icon view. 
+ To set this value, set uiParam to the new value and set pvParam to null. You cannot set this value to less than SM_CXICON.
+ To retrieve this value, pvParam must point to an integer that receives the current value.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETSCREENSAVETIMEOUT">
+ <summary>
+ Retrieves the screen saver time-out value, in seconds. The pvParam parameter must point to an integer variable that receives the value.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETSCREENSAVETIMEOUT">
+ <summary>
+ Sets the screen saver time-out value to the value of the uiParam parameter. This value is the amount of time, in seconds, 
+ that the system must be idle before the screen saver activates.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETSCREENSAVEACTIVE">
+ <summary>
+ Determines whether screen saving is enabled. The pvParam parameter must point to a bool variable that receives TRUE 
+ if screen saving is enabled, or FALSE otherwise.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETSCREENSAVEACTIVE">
+ <summary>
+ Sets the state of the screen saver. The uiParam parameter specifies TRUE to activate screen saving, or FALSE to deactivate it.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETGRIDGRANULARITY">
+ <summary>
+ Retrieves the current granularity value of the desktop sizing grid. The pvParam parameter must point to an integer variable 
+ that receives the granularity.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETGRIDGRANULARITY">
+ <summary>
+ Sets the granularity of the desktop sizing grid to the value of the uiParam parameter.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETDESKWALLPAPER">
+ <summary>
+ Sets the desktop wallpaper. The value of the pvParam parameter determines the new wallpaper. To specify a wallpaper bitmap, 
+ set pvParam to point to a null-terminated string containing the name of a bitmap file. Setting pvParam to "" removes the wallpaper. 
+ Setting pvParam to SETWALLPAPER_DEFAULT or null reverts to the default wallpaper.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETDESKPATTERN">
+ <summary>
+ Sets the current desktop pattern by causing Windows to read the Pattern= setting from the WIN.INI file.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETKEYBOARDDELAY">
+ <summary>
+ Retrieves the keyboard repeat-delay setting, which is a value in the range from 0 (approximately 250 ms delay) through 3 
+ (approximately 1 second delay). The actual delay associated with each value may vary depending on the hardware. The pvParam parameter must point to an integer variable that receives the setting.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETKEYBOARDDELAY">
+ <summary>
+ Sets the keyboard repeat-delay setting. The uiParam parameter must specify 0, 1, 2, or 3, where zero sets the shortest delay 
+ (approximately 250 ms) and 3 sets the longest delay (approximately 1 second). The actual delay associated with each value may 
+ vary depending on the hardware.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_ICONVERTICALSPACING">
+ <summary>
+ Sets or retrieves the height, in pixels, of an icon cell. 
+ To set this value, set uiParam to the new value and set pvParam to null. You cannot set this value to less than SM_CYICON.
+ To retrieve this value, pvParam must point to an integer that receives the current value.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETICONTITLEWRAP">
+ <summary>
+ Determines whether icon-title wrapping is enabled. The pvParam parameter must point to a bool variable that receives TRUE 
+ if enabled, or FALSE otherwise.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETICONTITLEWRAP">
+ <summary>
+ Turns icon-title wrapping on or off. The uiParam parameter specifies TRUE for on, or FALSE for off.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETMENUDROPALIGNMENT">
+ <summary>
+ Determines whether pop-up menus are left-aligned or right-aligned, relative to the corresponding menu-bar item. 
+ The pvParam parameter must point to a bool variable that receives TRUE if left-aligned, or FALSE otherwise.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETMENUDROPALIGNMENT">
+ <summary>
+ Sets the alignment value of pop-up menus. The uiParam parameter specifies TRUE for right alignment, or FALSE for left alignment.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETDOUBLECLKWIDTH">
+ <summary>
+ Sets the width of the double-click rectangle to the value of the uiParam parameter. 
+ The double-click rectangle is the rectangle within which the second click of a double-click must fall for it to be registered 
+ as a double-click.
+ To retrieve the width of the double-click rectangle, call GetSystemMetrics with the SM_CXDOUBLECLK flag.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETDOUBLECLKHEIGHT">
+ <summary>
+ Sets the height of the double-click rectangle to the value of the uiParam parameter. 
+ The double-click rectangle is the rectangle within which the second click of a double-click must fall for it to be registered 
+ as a double-click.
+ To retrieve the height of the double-click rectangle, call GetSystemMetrics with the SM_CYDOUBLECLK flag.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETICONTITLELOGFONT">
+ <summary>
+ Retrieves the logical font information for the current icon-title font. The uiParam parameter specifies the size of a LOGFONT structure, 
+ and the pvParam parameter must point to the LOGFONT structure to fill in.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETDOUBLECLICKTIME">
+ <summary>
+ Sets the double-click time for the mouse to the value of the uiParam parameter. The double-click time is the maximum number 
+ of milliseconds that can occur between the first and second clicks of a double-click. You can also call the SetDoubleClickTime 
+ function to set the double-click time. To get the current double-click time, call the GetDoubleClickTime function.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETMOUSEBUTTONSWAP">
+ <summary>
+ Swaps or restores the meaning of the left and right mouse buttons. The uiParam parameter specifies TRUE to swap the meanings 
+ of the buttons, or FALSE to restore their original meanings.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETICONTITLELOGFONT">
+ <summary>
+ Sets the font that is used for icon titles. The uiParam parameter specifies the size of a LOGFONT structure, 
+ and the pvParam parameter must point to a LOGFONT structure.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETFASTTASKSWITCH">
+ <summary>
+ This flag is obsolete. Previous versions of the system use this flag to determine whether ALT+TAB fast task switching is enabled. 
+ For Windows 95, Windows 98, and Windows NT version 4.0 and later, fast task switching is always enabled.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETFASTTASKSWITCH">
+ <summary>
+ This flag is obsolete. Previous versions of the system use this flag to enable or disable ALT+TAB fast task switching. 
+ For Windows 95, Windows 98, and Windows NT version 4.0 and later, fast task switching is always enabled.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETDRAGFULLWINDOWS">
+ <summary>
+ Sets dragging of full windows either on or off. The uiParam parameter specifies TRUE for on, or FALSE for off. 
+ Windows 95:  This flag is supported only if Windows Plus! is installed. See SPI_GETWINDOWSEXTENSION.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETDRAGFULLWINDOWS">
+ <summary>
+ Determines whether dragging of full windows is enabled. The pvParam parameter must point to a BOOL variable that receives TRUE 
+ if enabled, or FALSE otherwise. 
+ Windows 95:  This flag is supported only if Windows Plus! is installed. See SPI_GETWINDOWSEXTENSION.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETNONCLIENTMETRICS">
+ <summary>
+ Retrieves the metrics associated with the nonclient area of nonminimized windows. The pvParam parameter must point 
+ to a NONCLIENTMETRICS structure that receives the information. Set the cbSize member of this structure and the uiParam parameter 
+ to sizeof(NONCLIENTMETRICS).
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETNONCLIENTMETRICS">
+ <summary>
+ Sets the metrics associated with the nonclient area of nonminimized windows. The pvParam parameter must point 
+ to a NONCLIENTMETRICS structure that contains the new parameters. Set the cbSize member of this structure 
+ and the uiParam parameter to sizeof(NONCLIENTMETRICS). Also, the lfHeight member of the LOGFONT structure must be a negative value.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETMINIMIZEDMETRICS">
+ <summary>
+ Retrieves the metrics associated with minimized windows. The pvParam parameter must point to a MINIMIZEDMETRICS structure 
+ that receives the information. Set the cbSize member of this structure and the uiParam parameter to sizeof(MINIMIZEDMETRICS).
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETMINIMIZEDMETRICS">
+ <summary>
+ Sets the metrics associated with minimized windows. The pvParam parameter must point to a MINIMIZEDMETRICS structure 
+ that contains the new parameters. Set the cbSize member of this structure and the uiParam parameter to sizeof(MINIMIZEDMETRICS).
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETICONMETRICS">
+ <summary>
+ Retrieves the metrics associated with icons. The pvParam parameter must point to an ICONMETRICS structure that receives 
+ the information. Set the cbSize member of this structure and the uiParam parameter to sizeof(ICONMETRICS).
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETICONMETRICS">
+ <summary>
+ Sets the metrics associated with icons. The pvParam parameter must point to an ICONMETRICS structure that contains 
+ the new parameters. Set the cbSize member of this structure and the uiParam parameter to sizeof(ICONMETRICS).
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETWORKAREA">
+ <summary>
+ Sets the size of the work area. The work area is the portion of the screen not obscured by the system taskbar 
+ or by application desktop toolbars. The pvParam parameter is a pointer to a RECT structure that specifies the new work area rectangle, 
+ expressed in virtual screen coordinates. In a system with multiple display monitors, the function sets the work area 
+ of the monitor that contains the specified rectangle.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETWORKAREA">
+ <summary>
+ Retrieves the size of the work area on the primary display monitor. The work area is the portion of the screen not obscured 
+ by the system taskbar or by application desktop toolbars. The pvParam parameter must point to a RECT structure that receives 
+ the coordinates of the work area, expressed in virtual screen coordinates. 
+ To get the work area of a monitor other than the primary display monitor, call the GetMonitorInfo function.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETPENWINDOWS">
+ <summary>
+ Windows Me/98/95:  Pen windows is being loaded or unloaded. The uiParam parameter is TRUE when loading and FALSE 
+ when unloading pen windows. The pvParam parameter is null.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETHIGHCONTRAST">
+ <summary>
+ Retrieves information about the HighContrast accessibility feature. The pvParam parameter must point to a HIGHCONTRAST structure 
+ that receives the information. Set the cbSize member of this structure and the uiParam parameter to sizeof(HIGHCONTRAST). 
+ For a general discussion, see remarks.
+ Windows NT:  This value is not supported.
+ </summary>
+ <remarks>
+ There is a difference between the High Contrast color scheme and the High Contrast Mode. The High Contrast color scheme changes 
+ the system colors to colors that have obvious contrast; you switch to this color scheme by using the Display Options in the control panel. 
+ The High Contrast Mode, which uses SPI_GETHIGHCONTRAST and SPI_SETHIGHCONTRAST, advises applications to modify their appearance 
+ for visually-impaired users. It involves such things as audible warning to users and customized color scheme 
+ (using the Accessibility Options in the control panel). For more information, see HIGHCONTRAST on MSDN.
+ For more information on general accessibility features, see Accessibility on MSDN.
+ </remarks>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETHIGHCONTRAST">
+ <summary>
+ Sets the parameters of the HighContrast accessibility feature. The pvParam parameter must point to a HIGHCONTRAST structure 
+ that contains the new parameters. Set the cbSize member of this structure and the uiParam parameter to sizeof(HIGHCONTRAST).
+ Windows NT:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETKEYBOARDPREF">
+ <summary>
+ Determines whether the user relies on the keyboard instead of the mouse, and wants applications to display keyboard interfaces 
+ that would otherwise be hidden. The pvParam parameter must point to a BOOL variable that receives TRUE 
+ if the user relies on the keyboard; or FALSE otherwise.
+ Windows NT:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETKEYBOARDPREF">
+ <summary>
+ Sets the keyboard preference. The uiParam parameter specifies TRUE if the user relies on the keyboard instead of the mouse, 
+ and wants applications to display keyboard interfaces that would otherwise be hidden; uiParam is FALSE otherwise.
+ Windows NT:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETSCREENREADER">
+ <summary>
+ Determines whether a screen reviewer utility is running. A screen reviewer utility directs textual information to an output device, 
+ such as a speech synthesizer or Braille display. When this flag is set, an application should provide textual information 
+ in situations where it would otherwise present the information graphically.
+ The pvParam parameter is a pointer to a BOOL variable that receives TRUE if a screen reviewer utility is running, or FALSE otherwise.
+ Windows NT:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETSCREENREADER">
+ <summary>
+ Determines whether a screen review utility is running. The uiParam parameter specifies TRUE for on, or FALSE for off.
+ Windows NT:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETANIMATION">
+ <summary>
+ Retrieves the animation effects associated with user actions. The pvParam parameter must point to an ANIMATIONINFO structure 
+ that receives the information. Set the cbSize member of this structure and the uiParam parameter to sizeof(ANIMATIONINFO).
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETANIMATION">
+ <summary>
+ Sets the animation effects associated with user actions. The pvParam parameter must point to an ANIMATIONINFO structure 
+ that contains the new parameters. Set the cbSize member of this structure and the uiParam parameter to sizeof(ANIMATIONINFO).
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETFONTSMOOTHING">
+ <summary>
+ Determines whether the font smoothing feature is enabled. This feature uses font antialiasing to make font curves appear smoother 
+ by painting pixels at different gray levels. 
+ The pvParam parameter must point to a BOOL variable that receives TRUE if the feature is enabled, or FALSE if it is not.
+ Windows 95:  This flag is supported only if Windows Plus! is installed. See SPI_GETWINDOWSEXTENSION.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETFONTSMOOTHING">
+ <summary>
+ Enables or disables the font smoothing feature, which uses font antialiasing to make font curves appear smoother 
+ by painting pixels at different gray levels. 
+ To enable the feature, set the uiParam parameter to TRUE. To disable the feature, set uiParam to FALSE.
+ Windows 95:  This flag is supported only if Windows Plus! is installed. See SPI_GETWINDOWSEXTENSION.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETDRAGWIDTH">
+ <summary>
+ Sets the width, in pixels, of the rectangle used to detect the start of a drag operation. Set uiParam to the new value. 
+ To retrieve the drag width, call GetSystemMetrics with the SM_CXDRAG flag.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETDRAGHEIGHT">
+ <summary>
+ Sets the height, in pixels, of the rectangle used to detect the start of a drag operation. Set uiParam to the new value. 
+ To retrieve the drag height, call GetSystemMetrics with the SM_CYDRAG flag.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETHANDHELD">
+ <summary>
+ Used internally; applications should not use this value.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETLOWPOWERTIMEOUT">
+ <summary>
+ Retrieves the time-out value for the low-power phase of screen saving. The pvParam parameter must point to an integer variable 
+ that receives the value. This flag is supported for 32-bit applications only.
+ Windows NT, Windows Me/98:  This flag is supported for 16-bit and 32-bit applications.
+ Windows 95:  This flag is supported for 16-bit applications only.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETPOWEROFFTIMEOUT">
+ <summary>
+ Retrieves the time-out value for the power-off phase of screen saving. The pvParam parameter must point to an integer variable 
+ that receives the value. This flag is supported for 32-bit applications only.
+ Windows NT, Windows Me/98:  This flag is supported for 16-bit and 32-bit applications.
+ Windows 95:  This flag is supported for 16-bit applications only.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETLOWPOWERTIMEOUT">
+ <summary>
+ Sets the time-out value, in seconds, for the low-power phase of screen saving. The uiParam parameter specifies the new value. 
+ The pvParam parameter must be null. This flag is supported for 32-bit applications only.
+ Windows NT, Windows Me/98:  This flag is supported for 16-bit and 32-bit applications.
+ Windows 95:  This flag is supported for 16-bit applications only.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETPOWEROFFTIMEOUT">
+ <summary>
+ Sets the time-out value, in seconds, for the power-off phase of screen saving. The uiParam parameter specifies the new value. 
+ The pvParam parameter must be null. This flag is supported for 32-bit applications only.
+ Windows NT, Windows Me/98:  This flag is supported for 16-bit and 32-bit applications.
+ Windows 95:  This flag is supported for 16-bit applications only.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETLOWPOWERACTIVE">
+ <summary>
+ Determines whether the low-power phase of screen saving is enabled. The pvParam parameter must point to a BOOL variable 
+ that receives TRUE if enabled, or FALSE if disabled. This flag is supported for 32-bit applications only.
+ Windows NT, Windows Me/98:  This flag is supported for 16-bit and 32-bit applications.
+ Windows 95:  This flag is supported for 16-bit applications only.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETPOWEROFFACTIVE">
+ <summary>
+ Determines whether the power-off phase of screen saving is enabled. The pvParam parameter must point to a BOOL variable 
+ that receives TRUE if enabled, or FALSE if disabled. This flag is supported for 32-bit applications only.
+ Windows NT, Windows Me/98:  This flag is supported for 16-bit and 32-bit applications.
+ Windows 95:  This flag is supported for 16-bit applications only.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETLOWPOWERACTIVE">
+ <summary>
+ Activates or deactivates the low-power phase of screen saving. Set uiParam to 1 to activate, or zero to deactivate. 
+ The pvParam parameter must be null. This flag is supported for 32-bit applications only.
+ Windows NT, Windows Me/98:  This flag is supported for 16-bit and 32-bit applications.
+ Windows 95:  This flag is supported for 16-bit applications only.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETPOWEROFFACTIVE">
+ <summary>
+ Activates or deactivates the power-off phase of screen saving. Set uiParam to 1 to activate, or zero to deactivate. 
+ The pvParam parameter must be null. This flag is supported for 32-bit applications only.
+ Windows NT, Windows Me/98:  This flag is supported for 16-bit and 32-bit applications.
+ Windows 95:  This flag is supported for 16-bit applications only.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETCURSORS">
+ <summary>
+ Reloads the system cursors. Set the uiParam parameter to zero and the pvParam parameter to null.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETICONS">
+ <summary>
+ Reloads the system icons. Set the uiParam parameter to zero and the pvParam parameter to null.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETDEFAULTINPUTLANG">
+ <summary>
+ Retrieves the input locale identifier for the system default input language. The pvParam parameter must point 
+ to an HKL variable that receives this value. For more information, see Languages, Locales, and Keyboard Layouts on MSDN.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETDEFAULTINPUTLANG">
+ <summary>
+ Sets the default input language for the system shell and applications. The specified language must be displayable 
+ using the current system character set. The pvParam parameter must point to an HKL variable that contains 
+ the input locale identifier for the default language. For more information, see Languages, Locales, and Keyboard Layouts on MSDN.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETLANGTOGGLE">
+ <summary>
+ Sets the hot key set for switching between input languages. The uiParam and pvParam parameters are not used. 
+ The value sets the shortcut keys in the keyboard property sheets by reading the registry again. The registry must be set before this flag is used. the path in the registry is \HKEY_CURRENT_USER\keyboard layout\toggle. Valid values are "1" = ALT+SHIFT, "2" = CTRL+SHIFT, and "3" = none.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETWINDOWSEXTENSION">
+ <summary>
+ Windows 95:  Determines whether the Windows extension, Windows Plus!, is installed. Set the uiParam parameter to 1. 
+ The pvParam parameter is not used. The function returns TRUE if the extension is installed, or FALSE if it is not.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETMOUSETRAILS">
+ <summary>
+ Enables or disables the Mouse Trails feature, which improves the visibility of mouse cursor movements by briefly showing 
+ a trail of cursors and quickly erasing them. 
+ To disable the feature, set the uiParam parameter to zero or 1. To enable the feature, set uiParam to a value greater than 1 
+ to indicate the number of cursors drawn in the trail.
+ Windows 2000/NT:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETMOUSETRAILS">
+ <summary>
+ Determines whether the Mouse Trails feature is enabled. This feature improves the visibility of mouse cursor movements 
+ by briefly showing a trail of cursors and quickly erasing them. 
+ The pvParam parameter must point to an integer variable that receives a value. If the value is zero or 1, the feature is disabled. 
+ If the value is greater than 1, the feature is enabled and the value indicates the number of cursors drawn in the trail. 
+ The uiParam parameter is not used.
+ Windows 2000/NT:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETSCREENSAVERRUNNING">
+ <summary>
+ Windows Me/98:  Used internally; applications should not use this flag.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SCREENSAVERRUNNING">
+ <summary>
+ Same as SPI_SETSCREENSAVERRUNNING.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETFILTERKEYS">
+ <summary>
+ Retrieves information about the FilterKeys accessibility feature. The pvParam parameter must point to a FILTERKEYS structure 
+ that receives the information. Set the cbSize member of this structure and the uiParam parameter to sizeof(FILTERKEYS).
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETFILTERKEYS">
+ <summary>
+ Sets the parameters of the FilterKeys accessibility feature. The pvParam parameter must point to a FILTERKEYS structure 
+ that contains the new parameters. Set the cbSize member of this structure and the uiParam parameter to sizeof(FILTERKEYS).
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETTOGGLEKEYS">
+ <summary>
+ Retrieves information about the ToggleKeys accessibility feature. The pvParam parameter must point to a TOGGLEKEYS structure 
+ that receives the information. Set the cbSize member of this structure and the uiParam parameter to sizeof(TOGGLEKEYS).
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETTOGGLEKEYS">
+ <summary>
+ Sets the parameters of the ToggleKeys accessibility feature. The pvParam parameter must point to a TOGGLEKEYS structure 
+ that contains the new parameters. Set the cbSize member of this structure and the uiParam parameter to sizeof(TOGGLEKEYS).
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETMOUSEKEYS">
+ <summary>
+ Retrieves information about the MouseKeys accessibility feature. The pvParam parameter must point to a MOUSEKEYS structure 
+ that receives the information. Set the cbSize member of this structure and the uiParam parameter to sizeof(MOUSEKEYS).
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETMOUSEKEYS">
+ <summary>
+ Sets the parameters of the MouseKeys accessibility feature. The pvParam parameter must point to a MOUSEKEYS structure 
+ that contains the new parameters. Set the cbSize member of this structure and the uiParam parameter to sizeof(MOUSEKEYS).
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETSHOWSOUNDS">
+ <summary>
+ Determines whether the Show Sounds accessibility flag is on or off. If it is on, the user requires an application 
+ to present information visually in situations where it would otherwise present the information only in audible form. 
+ The pvParam parameter must point to a BOOL variable that receives TRUE if the feature is on, or FALSE if it is off. 
+ Using this value is equivalent to calling GetSystemMetrics (SM_SHOWSOUNDS). That is the recommended call.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETSHOWSOUNDS">
+ <summary>
+ Sets the parameters of the SoundSentry accessibility feature. The pvParam parameter must point to a SOUNDSENTRY structure 
+ that contains the new parameters. Set the cbSize member of this structure and the uiParam parameter to sizeof(SOUNDSENTRY).
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETSTICKYKEYS">
+ <summary>
+ Retrieves information about the StickyKeys accessibility feature. The pvParam parameter must point to a STICKYKEYS structure 
+ that receives the information. Set the cbSize member of this structure and the uiParam parameter to sizeof(STICKYKEYS).
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETSTICKYKEYS">
+ <summary>
+ Sets the parameters of the StickyKeys accessibility feature. The pvParam parameter must point to a STICKYKEYS structure 
+ that contains the new parameters. Set the cbSize member of this structure and the uiParam parameter to sizeof(STICKYKEYS).
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETACCESSTIMEOUT">
+ <summary>
+ Retrieves information about the time-out period associated with the accessibility features. The pvParam parameter must point 
+ to an ACCESSTIMEOUT structure that receives the information. Set the cbSize member of this structure and the uiParam parameter 
+ to sizeof(ACCESSTIMEOUT).
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETACCESSTIMEOUT">
+ <summary>
+ Sets the time-out period associated with the accessibility features. The pvParam parameter must point to an ACCESSTIMEOUT 
+ structure that contains the new parameters. Set the cbSize member of this structure and the uiParam parameter to sizeof(ACCESSTIMEOUT).
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETSERIALKEYS">
+ <summary>
+ Windows Me/98/95:  Retrieves information about the SerialKeys accessibility feature. The pvParam parameter must point 
+ to a SERIALKEYS structure that receives the information. Set the cbSize member of this structure and the uiParam parameter 
+ to sizeof(SERIALKEYS).
+ Windows Server 2003, Windows XP/2000/NT:  Not supported. The user controls this feature through the control panel.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETSERIALKEYS">
+ <summary>
+ Windows Me/98/95:  Sets the parameters of the SerialKeys accessibility feature. The pvParam parameter must point 
+ to a SERIALKEYS structure that contains the new parameters. Set the cbSize member of this structure and the uiParam parameter 
+ to sizeof(SERIALKEYS). 
+ Windows Server 2003, Windows XP/2000/NT:  Not supported. The user controls this feature through the control panel.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETSOUNDSENTRY">
+ <summary>
+ Retrieves information about the SoundSentry accessibility feature. The pvParam parameter must point to a SOUNDSENTRY structure 
+ that receives the information. Set the cbSize member of this structure and the uiParam parameter to sizeof(SOUNDSENTRY).
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETSOUNDSENTRY">
+ <summary>
+ Sets the parameters of the SoundSentry accessibility feature. The pvParam parameter must point to a SOUNDSENTRY structure 
+ that contains the new parameters. Set the cbSize member of this structure and the uiParam parameter to sizeof(SOUNDSENTRY).
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETSNAPTODEFBUTTON">
+ <summary>
+ Determines whether the snap-to-default-button feature is enabled. If enabled, the mouse cursor automatically moves 
+ to the default button, such as OK or Apply, of a dialog box. The pvParam parameter must point to a BOOL variable 
+ that receives TRUE if the feature is on, or FALSE if it is off. 
+ Windows 95:  Not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETSNAPTODEFBUTTON">
+ <summary>
+ Enables or disables the snap-to-default-button feature. If enabled, the mouse cursor automatically moves to the default button, 
+ such as OK or Apply, of a dialog box. Set the uiParam parameter to TRUE to enable the feature, or FALSE to disable it. 
+ Applications should use the ShowWindow function when displaying a dialog box so the dialog manager can position the mouse cursor. 
+ Windows 95:  Not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETMOUSEHOVERWIDTH">
+ <summary>
+ Retrieves the width, in pixels, of the rectangle within which the mouse pointer has to stay for TrackMouseEvent 
+ to generate a WM_MOUSEHOVER message. The pvParam parameter must point to a UINT variable that receives the width. 
+ Windows 95:  Not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETMOUSEHOVERWIDTH">
+ <summary>
+ Retrieves the width, in pixels, of the rectangle within which the mouse pointer has to stay for TrackMouseEvent 
+ to generate a WM_MOUSEHOVER message. The pvParam parameter must point to a UINT variable that receives the width. 
+ Windows 95:  Not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETMOUSEHOVERHEIGHT">
+ <summary>
+ Retrieves the height, in pixels, of the rectangle within which the mouse pointer has to stay for TrackMouseEvent 
+ to generate a WM_MOUSEHOVER message. The pvParam parameter must point to a UINT variable that receives the height. 
+ Windows 95:  Not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETMOUSEHOVERHEIGHT">
+ <summary>
+ Sets the height, in pixels, of the rectangle within which the mouse pointer has to stay for TrackMouseEvent 
+ to generate a WM_MOUSEHOVER message. Set the uiParam parameter to the new height.
+ Windows 95:  Not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETMOUSEHOVERTIME">
+ <summary>
+ Retrieves the time, in milliseconds, that the mouse pointer has to stay in the hover rectangle for TrackMouseEvent 
+ to generate a WM_MOUSEHOVER message. The pvParam parameter must point to a UINT variable that receives the time. 
+ Windows 95:  Not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETMOUSEHOVERTIME">
+ <summary>
+ Sets the time, in milliseconds, that the mouse pointer has to stay in the hover rectangle for TrackMouseEvent 
+ to generate a WM_MOUSEHOVER message. This is used only if you pass HOVER_DEFAULT in the dwHoverTime parameter in the call to TrackMouseEvent. Set the uiParam parameter to the new time. 
+ Windows 95:  Not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETWHEELSCROLLLINES">
+ <summary>
+ Retrieves the number of lines to scroll when the mouse wheel is rotated. The pvParam parameter must point 
+ to a UINT variable that receives the number of lines. The default value is 3. 
+ Windows 95:  Not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETWHEELSCROLLLINES">
+ <summary>
+ Sets the number of lines to scroll when the mouse wheel is rotated. The number of lines is set from the uiParam parameter. 
+ The number of lines is the suggested number of lines to scroll when the mouse wheel is rolled without using modifier keys. 
+ If the number is 0, then no scrolling should occur. If the number of lines to scroll is greater than the number of lines viewable, 
+ and in particular if it is WHEEL_PAGESCROLL (#defined as UINT_MAX), the scroll operation should be interpreted 
+ as clicking once in the page down or page up regions of the scroll bar.
+ Windows 95:  Not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETMENUSHOWDELAY">
+ <summary>
+ Retrieves the time, in milliseconds, that the system waits before displaying a shortcut menu when the mouse cursor is 
+ over a submenu item. The pvParam parameter must point to a DWORD variable that receives the time of the delay. 
+ Windows 95:  Not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETMENUSHOWDELAY">
+ <summary>
+ Sets uiParam to the time, in milliseconds, that the system waits before displaying a shortcut menu when the mouse cursor is 
+ over a submenu item. 
+ Windows 95:  Not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETSHOWIMEUI">
+ <summary>
+ Determines whether the IME status window is visible (on a per-user basis). The pvParam parameter must point to a BOOL variable 
+ that receives TRUE if the status window is visible, or FALSE if it is not.
+ Windows NT, Windows 95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETSHOWIMEUI">
+ <summary>
+ Sets whether the IME status window is visible or not on a per-user basis. The uiParam parameter specifies TRUE for on or FALSE for off.
+ Windows NT, Windows 95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETMOUSESPEED">
+ <summary>
+ Retrieves the current mouse speed. The mouse speed determines how far the pointer will move based on the distance the mouse moves. 
+ The pvParam parameter must point to an integer that receives a value which ranges between 1 (slowest) and 20 (fastest). 
+ A value of 10 is the default. The value can be set by an end user using the mouse control panel application or 
+ by an application using SPI_SETMOUSESPEED.
+ Windows NT, Windows 95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETMOUSESPEED">
+ <summary>
+ Sets the current mouse speed. The pvParam parameter is an integer between 1 (slowest) and 20 (fastest). A value of 10 is the default. 
+ This value is typically set using the mouse control panel application.
+ Windows NT, Windows 95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETSCREENSAVERRUNNING">
+ <summary>
+ Determines whether a screen saver is currently running on the window station of the calling process. 
+ The pvParam parameter must point to a BOOL variable that receives TRUE if a screen saver is currently running, or FALSE otherwise.
+ Note that only the interactive window station, "WinSta0", can have a screen saver running.
+ Windows NT, Windows 95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETDESKWALLPAPER">
+ <summary>
+ Retrieves the full path of the bitmap file for the desktop wallpaper. The pvParam parameter must point to a buffer 
+ that receives a null-terminated path string. Set the uiParam parameter to the size, in characters, of the pvParam buffer. The returned string will not exceed MAX_PATH characters. If there is no desktop wallpaper, the returned string is empty.
+ Windows NT, Windows Me/98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETACTIVEWINDOWTRACKING">
+ <summary>
+ Determines whether active window tracking (activating the window the mouse is on) is on or off. The pvParam parameter must point 
+ to a BOOL variable that receives TRUE for on, or FALSE for off.
+ Windows NT, Windows 95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETACTIVEWINDOWTRACKING">
+ <summary>
+ Sets active window tracking (activating the window the mouse is on) either on or off. Set pvParam to TRUE for on or FALSE for off.
+ Windows NT, Windows 95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETMENUANIMATION">
+ <summary>
+ Determines whether the menu animation feature is enabled. This master switch must be on to enable menu animation effects. 
+ The pvParam parameter must point to a BOOL variable that receives TRUE if animation is enabled and FALSE if it is disabled. 
+ If animation is enabled, SPI_GETMENUFADE indicates whether menus use fade or slide animation.
+ Windows NT, Windows 95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETMENUANIMATION">
+ <summary>
+ Enables or disables menu animation. This master switch must be on for any menu animation to occur. 
+ The pvParam parameter is a BOOL variable; set pvParam to TRUE to enable animation and FALSE to disable animation.
+ If animation is enabled, SPI_GETMENUFADE indicates whether menus use fade or slide animation.
+ Windows NT, Windows 95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETCOMBOBOXANIMATION">
+ <summary>
+ Determines whether the slide-open effect for combo boxes is enabled. The pvParam parameter must point to a BOOL variable 
+ that receives TRUE for enabled, or FALSE for disabled.
+ Windows NT, Windows 95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETCOMBOBOXANIMATION">
+ <summary>
+ Enables or disables the slide-open effect for combo boxes. Set the pvParam parameter to TRUE to enable the gradient effect, 
+ or FALSE to disable it.
+ Windows NT, Windows 95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETLISTBOXSMOOTHSCROLLING">
+ <summary>
+ Determines whether the smooth-scrolling effect for list boxes is enabled. The pvParam parameter must point to a BOOL variable 
+ that receives TRUE for enabled, or FALSE for disabled.
+ Windows NT, Windows 95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETLISTBOXSMOOTHSCROLLING">
+ <summary>
+ Enables or disables the smooth-scrolling effect for list boxes. Set the pvParam parameter to TRUE to enable the smooth-scrolling effect,
+ or FALSE to disable it.
+ Windows NT, Windows 95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETGRADIENTCAPTIONS">
+ <summary>
+ Determines whether the gradient effect for window title bars is enabled. The pvParam parameter must point to a BOOL variable 
+ that receives TRUE for enabled, or FALSE for disabled. For more information about the gradient effect, see the GetSysColor function.
+ Windows NT, Windows 95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETGRADIENTCAPTIONS">
+ <summary>
+ Enables or disables the gradient effect for window title bars. Set the pvParam parameter to TRUE to enable it, or FALSE to disable it. 
+ The gradient effect is possible only if the system has a color depth of more than 256 colors. For more information about 
+ the gradient effect, see the GetSysColor function.
+ Windows NT, Windows 95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETKEYBOARDCUES">
+ <summary>
+ Determines whether menu access keys are always underlined. The pvParam parameter must point to a BOOL variable that receives TRUE 
+ if menu access keys are always underlined, and FALSE if they are underlined only when the menu is activated by the keyboard.
+ Windows NT, Windows 95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETKEYBOARDCUES">
+ <summary>
+ Sets the underlining of menu access key letters. The pvParam parameter is a BOOL variable. Set pvParam to TRUE to always underline menu 
+ access keys, or FALSE to underline menu access keys only when the menu is activated from the keyboard.
+ Windows NT, Windows 95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETMENUUNDERLINES">
+ <summary>
+ Same as SPI_GETKEYBOARDCUES.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETMENUUNDERLINES">
+ <summary>
+ Same as SPI_SETKEYBOARDCUES.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETACTIVEWNDTRKZORDER">
+ <summary>
+ Determines whether windows activated through active window tracking will be brought to the top. The pvParam parameter must point 
+ to a BOOL variable that receives TRUE for on, or FALSE for off.
+ Windows NT, Windows 95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETACTIVEWNDTRKZORDER">
+ <summary>
+ Determines whether or not windows activated through active window tracking should be brought to the top. Set pvParam to TRUE 
+ for on or FALSE for off.
+ Windows NT, Windows 95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETHOTTRACKING">
+ <summary>
+ Determines whether hot tracking of user-interface elements, such as menu names on menu bars, is enabled. The pvParam parameter 
+ must point to a BOOL variable that receives TRUE for enabled, or FALSE for disabled. 
+ Hot tracking means that when the cursor moves over an item, it is highlighted but not selected. You can query this value to decide 
+ whether to use hot tracking in the user interface of your application.
+ Windows NT, Windows 95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETHOTTRACKING">
+ <summary>
+ Enables or disables hot tracking of user-interface elements such as menu names on menu bars. Set the pvParam parameter to TRUE 
+ to enable it, or FALSE to disable it.
+ Hot-tracking means that when the cursor moves over an item, it is highlighted but not selected.
+ Windows NT, Windows 95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETMENUFADE">
+ <summary>
+ Determines whether menu fade animation is enabled. The pvParam parameter must point to a BOOL variable that receives TRUE 
+ when fade animation is enabled and FALSE when it is disabled. If fade animation is disabled, menus use slide animation. 
+ This flag is ignored unless menu animation is enabled, which you can do using the SPI_SETMENUANIMATION flag. 
+ For more information, see AnimateWindow.
+ Windows NT, Windows Me/98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETMENUFADE">
+ <summary>
+ Enables or disables menu fade animation. Set pvParam to TRUE to enable the menu fade effect or FALSE to disable it. 
+ If fade animation is disabled, menus use slide animation. he The menu fade effect is possible only if the system 
+ has a color depth of more than 256 colors. This flag is ignored unless SPI_MENUANIMATION is also set. For more information, 
+ see AnimateWindow.
+ Windows NT, Windows Me/98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETSELECTIONFADE">
+ <summary>
+ Determines whether the selection fade effect is enabled. The pvParam parameter must point to a BOOL variable that receives TRUE 
+ if enabled or FALSE if disabled. 
+ The selection fade effect causes the menu item selected by the user to remain on the screen briefly while fading out 
+ after the menu is dismissed.
+ Windows NT, Windows Me/98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETSELECTIONFADE">
+ <summary>
+ Set pvParam to TRUE to enable the selection fade effect or FALSE to disable it.
+ The selection fade effect causes the menu item selected by the user to remain on the screen briefly while fading out 
+ after the menu is dismissed. The selection fade effect is possible only if the system has a color depth of more than 256 colors.
+ Windows NT, Windows Me/98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETTOOLTIPANIMATION">
+ <summary>
+ Determines whether ToolTip animation is enabled. The pvParam parameter must point to a BOOL variable that receives TRUE 
+ if enabled or FALSE if disabled. If ToolTip animation is enabled, SPI_GETTOOLTIPFADE indicates whether ToolTips use fade or slide animation.
+ Windows NT, Windows Me/98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETTOOLTIPANIMATION">
+ <summary>
+ Set pvParam to TRUE to enable ToolTip animation or FALSE to disable it. If enabled, you can use SPI_SETTOOLTIPFADE 
+ to specify fade or slide animation.
+ Windows NT, Windows Me/98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETTOOLTIPFADE">
+ <summary>
+ If SPI_SETTOOLTIPANIMATION is enabled, SPI_GETTOOLTIPFADE indicates whether ToolTip animation uses a fade effect or a slide effect.
+  The pvParam parameter must point to a BOOL variable that receives TRUE for fade animation or FALSE for slide animation. 
+  For more information on slide and fade effects, see AnimateWindow.
+ Windows NT, Windows Me/98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETTOOLTIPFADE">
+ <summary>
+ If the SPI_SETTOOLTIPANIMATION flag is enabled, use SPI_SETTOOLTIPFADE to indicate whether ToolTip animation uses a fade effect 
+ or a slide effect. Set pvParam to TRUE for fade animation or FALSE for slide animation. The tooltip fade effect is possible only 
+ if the system has a color depth of more than 256 colors. For more information on the slide and fade effects, 
+ see the AnimateWindow function.
+ Windows NT, Windows Me/98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETCURSORSHADOW">
+ <summary>
+ Determines whether the cursor has a shadow around it. The pvParam parameter must point to a BOOL variable that receives TRUE 
+ if the shadow is enabled, FALSE if it is disabled. This effect appears only if the system has a color depth of more than 256 colors.
+ Windows NT, Windows Me/98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETCURSORSHADOW">
+ <summary>
+ Enables or disables a shadow around the cursor. The pvParam parameter is a BOOL variable. Set pvParam to TRUE to enable the shadow 
+ or FALSE to disable the shadow. This effect appears only if the system has a color depth of more than 256 colors.
+ Windows NT, Windows Me/98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETMOUSESONAR">
+ <summary>
+ Retrieves the state of the Mouse Sonar feature. The pvParam parameter must point to a BOOL variable that receives TRUE 
+ if enabled or FALSE otherwise. For more information, see About Mouse Input on MSDN.
+ Windows 2000/NT, Windows 98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETMOUSESONAR">
+ <summary>
+ Turns the Sonar accessibility feature on or off. This feature briefly shows several concentric circles around the mouse pointer 
+ when the user presses and releases the CTRL key. The pvParam parameter specifies TRUE for on and FALSE for off. The default is off. 
+ For more information, see About Mouse Input.
+ Windows 2000/NT, Windows 98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETMOUSECLICKLOCK">
+ <summary>
+ Retrieves the state of the Mouse ClickLock feature. The pvParam parameter must point to a BOOL variable that receives TRUE 
+ if enabled, or FALSE otherwise. For more information, see About Mouse Input.
+ Windows 2000/NT, Windows 98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETMOUSECLICKLOCK">
+ <summary>
+ Turns the Mouse ClickLock accessibility feature on or off. This feature temporarily locks down the primary mouse button 
+ when that button is clicked and held down for the time specified by SPI_SETMOUSECLICKLOCKTIME. The uiParam parameter specifies 
+ TRUE for on, 
+ or FALSE for off. The default is off. For more information, see Remarks and About Mouse Input on MSDN.
+ Windows 2000/NT, Windows 98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETMOUSEVANISH">
+ <summary>
+ Retrieves the state of the Mouse Vanish feature. The pvParam parameter must point to a BOOL variable that receives TRUE 
+ if enabled or FALSE otherwise. For more information, see About Mouse Input on MSDN.
+ Windows 2000/NT, Windows 98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETMOUSEVANISH">
+ <summary>
+ Turns the Vanish feature on or off. This feature hides the mouse pointer when the user types; the pointer reappears 
+ when the user moves the mouse. The pvParam parameter specifies TRUE for on and FALSE for off. The default is off. 
+ For more information, see About Mouse Input on MSDN.
+ Windows 2000/NT, Windows 98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETFLATMENU">
+ <summary>
+ Determines whether native User menus have flat menu appearance. The pvParam parameter must point to a BOOL variable 
+ that returns TRUE if the flat menu appearance is set, or FALSE otherwise.
+ Windows 2000/NT, Windows Me/98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETFLATMENU">
+ <summary>
+ Enables or disables flat menu appearance for native User menus. Set pvParam to TRUE to enable flat menu appearance 
+ or FALSE to disable it. 
+ When enabled, the menu bar uses COLOR_MENUBAR for the menubar background, COLOR_MENU for the menu-popup background, COLOR_MENUHILIGHT 
+ for the fill of the current menu selection, and COLOR_HILIGHT for the outline of the current menu selection. 
+ If disabled, menus are drawn using the same metrics and colors as in Windows 2000 and earlier.
+ Windows 2000/NT, Windows Me/98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETDROPSHADOW">
+ <summary>
+ Determines whether the drop shadow effect is enabled. The pvParam parameter must point to a BOOL variable that returns TRUE 
+ if enabled or FALSE if disabled.
+ Windows 2000/NT, Windows Me/98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETDROPSHADOW">
+ <summary>
+ Enables or disables the drop shadow effect. Set pvParam to TRUE to enable the drop shadow effect or FALSE to disable it. 
+ You must also have CS_DROPSHADOW in the window class style.
+ Windows 2000/NT, Windows Me/98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETBLOCKSENDINPUTRESETS">
+ <summary>
+ Retrieves a BOOL indicating whether an application can reset the screensaver's timer by calling the SendInput function 
+ to simulate keyboard or mouse input. The pvParam parameter must point to a BOOL variable that receives TRUE 
+ if the simulated input will be blocked, or FALSE otherwise. 
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETBLOCKSENDINPUTRESETS">
+ <summary>
+ Determines whether an application can reset the screensaver's timer by calling the SendInput function to simulate keyboard 
+ or mouse input. The uiParam parameter specifies TRUE if the screensaver will not be deactivated by simulated input, 
+ or FALSE if the screensaver will be deactivated by simulated input.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETUIEFFECTS">
+ <summary>
+ Determines whether UI effects are enabled or disabled. The pvParam parameter must point to a BOOL variable that receives TRUE 
+ if all UI effects are enabled, or FALSE if they are disabled.
+ Windows NT, Windows Me/98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETUIEFFECTS">
+ <summary>
+ Enables or disables UI effects. Set the pvParam parameter to TRUE to enable all UI effects or FALSE to disable all UI effects.
+ Windows NT, Windows Me/98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETFOREGROUNDLOCKTIMEOUT">
+ <summary>
+ Retrieves the amount of time following user input, in milliseconds, during which the system will not allow applications 
+ to force themselves into the foreground. The pvParam parameter must point to a DWORD variable that receives the time.
+ Windows NT, Windows 95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETFOREGROUNDLOCKTIMEOUT">
+ <summary>
+ Sets the amount of time following user input, in milliseconds, during which the system does not allow applications 
+ to force themselves into the foreground. Set pvParam to the new timeout value.
+ The calling thread must be able to change the foreground window, otherwise the call fails.
+ Windows NT, Windows 95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETACTIVEWNDTRKTIMEOUT">
+ <summary>
+ Retrieves the active window tracking delay, in milliseconds. The pvParam parameter must point to a DWORD variable 
+ that receives the time.
+ Windows NT, Windows 95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETACTIVEWNDTRKTIMEOUT">
+ <summary>
+ Sets the active window tracking delay. Set pvParam to the number of milliseconds to delay before activating the window 
+ under the mouse pointer.
+ Windows NT, Windows 95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETFOREGROUNDFLASHCOUNT">
+ <summary>
+ Retrieves the number of times SetForegroundWindow will flash the taskbar button when rejecting a foreground switch request. 
+ The pvParam parameter must point to a DWORD variable that receives the value.
+ Windows NT, Windows 95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETFOREGROUNDFLASHCOUNT">
+ <summary>
+ Sets the number of times SetForegroundWindow will flash the taskbar button when rejecting a foreground switch request. 
+ Set pvParam to the number of times to flash.
+ Windows NT, Windows 95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETCARETWIDTH">
+ <summary>
+ Retrieves the caret width in edit controls, in pixels. The pvParam parameter must point to a DWORD that receives this value.
+ Windows NT, Windows Me/98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETCARETWIDTH">
+ <summary>
+ Sets the caret width in edit controls. Set pvParam to the desired width, in pixels. The default and minimum value is 1.
+ Windows NT, Windows Me/98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETMOUSECLICKLOCKTIME">
+ <summary>
+ Retrieves the time delay before the primary mouse button is locked. The pvParam parameter must point to DWORD that receives 
+ the time delay. This is only enabled if SPI_SETMOUSECLICKLOCK is set to TRUE. For more information, see About Mouse Input on MSDN.
+ Windows 2000/NT, Windows 98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETMOUSECLICKLOCKTIME">
+ <summary>
+ Turns the Mouse ClickLock accessibility feature on or off. This feature temporarily locks down the primary mouse button 
+ when that button is clicked and held down for the time specified by SPI_SETMOUSECLICKLOCKTIME. The uiParam parameter 
+ specifies TRUE for on, or FALSE for off. The default is off. For more information, see Remarks and About Mouse Input on MSDN.
+ Windows 2000/NT, Windows 98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETFONTSMOOTHINGTYPE">
+ <summary>
+ Retrieves the type of font smoothing. The pvParam parameter must point to a UINT that receives the information.
+ Windows 2000/NT, Windows Me/98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETFONTSMOOTHINGTYPE">
+ <summary>
+ Sets the font smoothing type. The pvParam parameter points to a UINT that contains either FE_FONTSMOOTHINGSTANDARD, 
+ if standard anti-aliasing is used, or FE_FONTSMOOTHINGCLEARTYPE, if ClearType is used. The default is FE_FONTSMOOTHINGSTANDARD. 
+ When using this option, the fWinIni parameter must be set to SPIF_SENDWININICHANGE | SPIF_UPDATEINIFILE; otherwise, 
+ SystemParametersInfo fails.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETFONTSMOOTHINGCONTRAST">
+ <summary>
+ Retrieves a contrast value that is used in ClearType™ smoothing. The pvParam parameter must point to a UINT 
+ that receives the information.
+ Windows 2000/NT, Windows Me/98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETFONTSMOOTHINGCONTRAST">
+ <summary>
+ Sets the contrast value used in ClearType smoothing. The pvParam parameter points to a UINT that holds the contrast value. 
+ Valid contrast values are from 1000 to 2200. The default value is 1400.
+ When using this option, the fWinIni parameter must be set to SPIF_SENDWININICHANGE | SPIF_UPDATEINIFILE; otherwise, 
+ SystemParametersInfo fails.
+ SPI_SETFONTSMOOTHINGTYPE must also be set to FE_FONTSMOOTHINGCLEARTYPE.
+ Windows 2000/NT, Windows Me/98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETFOCUSBORDERWIDTH">
+ <summary>
+ Retrieves the width, in pixels, of the left and right edges of the focus rectangle drawn with DrawFocusRect. 
+ The pvParam parameter must point to a UINT.
+ Windows 2000/NT, Windows Me/98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETFOCUSBORDERWIDTH">
+ <summary>
+ Sets the height of the left and right edges of the focus rectangle drawn with DrawFocusRect to the value of the pvParam parameter.
+ Windows 2000/NT, Windows Me/98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETFOCUSBORDERHEIGHT">
+ <summary>
+ Retrieves the height, in pixels, of the top and bottom edges of the focus rectangle drawn with DrawFocusRect. 
+ The pvParam parameter must point to a UINT.
+ Windows 2000/NT, Windows Me/98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETFOCUSBORDERHEIGHT">
+ <summary>
+ Sets the height of the top and bottom edges of the focus rectangle drawn with DrawFocusRect to the value of the pvParam parameter.
+ Windows 2000/NT, Windows Me/98/95:  This value is not supported.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_GETFONTSMOOTHINGORIENTATION">
+ <summary>
+ Not implemented.
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.SPI.SPI_SETFONTSMOOTHINGORIENTATION">
+ <summary>
+ Not implemented.
+ </summary>
+</member>
+<member name="T:Exchange_Email_ToolsIT.ScreenMonitorLib.Win32API.ANIMATIONINFO">
+ <summary>
+ ANIMATIONINFO specifies animation effects associated with user actions. 
+ Used with SystemParametersInfo when SPI_GETANIMATION or SPI_SETANIMATION action is specified.
+ </summary>
+ <remark>
+ The uiParam value must be set to (System.UInt32)Marshal.SizeOf(typeof(ANIMATIONINFO)) when using this structure.
+ </remark>
+</member>
+<member name="M:Exchange_Email_ToolsIT.ScreenMonitorLib.Win32API.ANIMATIONINFO.#ctor(System.Boolean)">
+ <summary>
+ Creates an AMINMATIONINFO structure.
+ </summary>
+ <param name="iMinAnimate">If non-zero and SPI_SETANIMATION is specified, enables minimize/restore animation.</param>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.Win32API.ANIMATIONINFO.cbSize">
+ <summary>
+ Always must be set to (System.UInt32)Marshal.SizeOf(typeof(ANIMATIONINFO)).
+ </summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.Win32API.ANIMATIONINFO.m_iMinAnimate">
+ <summary>
+ If non-zero, minimize/restore animation is enabled, otherwise disabled.
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.ScreenMonitorLib.Win32API.SetMinimizeMaximizeAnimation(System.Boolean)">
+ <summary>
+ Enable/Disable MinAnimate
+ </summary>
+ <param name="status"></param>
+</member>
+<member name="T:Exchange_Email_ToolsIT.ScreenMonitorLib.Win32API.WindowShowStyle">
+ <summary>Enumeration of the different ways of showing a window using 
+ ShowWindow</summary>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.Win32API.WindowShowStyle.Hide">
+ <summary>Hides the window and activates another window.</summary>
+ <remarks>See SW_HIDE</remarks>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.Win32API.WindowShowStyle.ShowNormal">
+ <summary>Activates and displays a window. If the window is minimized 
+ or maximized, the system restores it to its original size and 
+ position. An application should specify this flag when displaying 
+ the window for the first time.</summary>
+ <remarks>See SW_SHOWNORMAL</remarks>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.Win32API.WindowShowStyle.ShowMinimized">
+ <summary>Activates the window and displays it as a minimized window.</summary>
+ <remarks>See SW_SHOWMINIMIZED</remarks>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.Win32API.WindowShowStyle.ShowMaximized">
+ <summary>Activates the window and displays it as a maximized window.</summary>
+ <remarks>See SW_SHOWMAXIMIZED</remarks>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.Win32API.WindowShowStyle.Maximize">
+ <summary>Maximizes the specified window.</summary>
+ <remarks>See SW_MAXIMIZE</remarks>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.Win32API.WindowShowStyle.ShowNormalNoActivate">
+ <summary>Displays a window in its most recent size and position. 
+ This value is similar to "ShowNormal", except the window is not 
+ actived.</summary>
+ <remarks>See SW_SHOWNOACTIVATE</remarks>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.Win32API.WindowShowStyle.Show">
+ <summary>Activates the window and displays it in its current size 
+ and position.</summary>
+ <remarks>See SW_SHOW</remarks>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.Win32API.WindowShowStyle.Minimize">
+ <summary>Minimizes the specified window and activates the next 
+ top-level window in the Z order.</summary>
+ <remarks>See SW_MINIMIZE</remarks>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.Win32API.WindowShowStyle.ShowMinNoActivate">
+ <summary>Displays the window as a minimized window. This value is 
+ similar to "ShowMinimized", except the window is not activated.</summary>
+ <remarks>See SW_SHOWMINNOACTIVE</remarks>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.Win32API.WindowShowStyle.ShowNoActivate">
+ <summary>Displays the window in its current size and position. This 
+ value is similar to "Show", except the window is not activated.</summary>
+ <remarks>See SW_SHOWNA</remarks>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.Win32API.WindowShowStyle.Restore">
+ <summary>Activates and displays the window. If the window is 
+ minimized or maximized, the system restores it to its original size 
+ and position. An application should specify this flag when restoring 
+ a minimized window.</summary>
+ <remarks>See SW_RESTORE</remarks>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.Win32API.WindowShowStyle.ShowDefault">
+ <summary>Sets the show state based on the SW_ value specified in the 
+ STARTUPINFO structure passed to the CreateProcess function by the 
+ program that started the application.</summary>
+ <remarks>See SW_SHOWDEFAULT</remarks>
+</member>
+<member name="F:Exchange_Email_ToolsIT.ScreenMonitorLib.Win32API.WindowShowStyle.ForceMinimized">
+ <summary>Windows 2000/XP: Minimizes a window, even if the thread 
+ that owns the window is hung. This flag should only be used when 
+ minimizing windows from a different thread.</summary>
+ <remarks>See SW_FORCEMINIMIZE</remarks>
+</member>
+<member name="T:Exchange_Email_ToolsIT.XmlSerialization">
+ <summary>
+ Functions for performing common XML Serialization operations.
+ <para>Only public properties and variables will be serialized.</para>
+ <para>Use the [XmlIgnore] attribute to prevent a property/variable from being serialized.</para>
+ <para>Object to be serialized must have a parameterless constructor.</para>
+ </summary>
+</member>
+<member name="M:Exchange_Email_ToolsIT.XmlSerialization.WriteToXmlFile``1(System.String,``0,System.Boolean)">
+ <summary>
+ Writes the given object instance to an XML file.
+ <para>Only Public properties and variables will be written to the file. These can be any type though, even other classes.</para>
+ <para>If there are public properties/variables that you do not want written to the file, decorate them with the [XmlIgnore] attribute.</para>
+ <para>Object type must have a parameterless constructor.</para>
+ </summary>
+ <typeparam name="T">The type of object being written to the file.</typeparam>
+ <param name="filePath">The file path to write the object instance to.</param>
+ <param name="objectToWrite">The object instance to write to the file.</param>
+ <param name="append">If false the file will be overwritten if it already exists. If true the contents will be appended to the file.</param>
+</member>
+<member name="M:Exchange_Email_ToolsIT.XmlSerialization.ReadFromXmlFile``1(System.String)">
+ <summary>
+ Reads an object instance from an XML file.
+ <para>Object type must have a parameterless constructor.</para>
+ </summary>
+ <typeparam name="T">The type of object to read from the file.</typeparam>
+ <param name="filePath">The file path to read the object instance from.</param>
+ <returns>Returns a new instance of the object read from the XML file.</returns>
+</member>
+</members>
+</doc>
